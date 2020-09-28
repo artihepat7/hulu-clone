@@ -1,0 +1,23 @@
+.videoCard {
+  color: white;
+  width: 400px;
+  height: 300px;
+  padding: 20px;
+  transition: transform 100ms;
+}
+.videoCard > img {
+  height: 200px;
+  width: 100%;
+}
+.videoCard:hover {
+  transform: scale(1.09);
+}
+.videoCard > h2 {
+  padding-top: 10px;
+}
+.likes {
+  display: none;
+}
+.videoCard:hover .likes {
+  display: block;
+}
